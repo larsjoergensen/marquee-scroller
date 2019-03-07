@@ -127,6 +127,7 @@ void NewsApiClient::value(String value) {
     news[counterTitle].url = value;
     counterTitle++;
   }
+
   Serial.println(currentKey + "=" + value);
 }
 
